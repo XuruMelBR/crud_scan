@@ -1,21 +1,45 @@
 span.input-group-text{
   width:  200px;
 }
-.btn-mktg{
-  background-image: linear-gradient(to right, rgb(100, 100, 245),rgb(190, 98, 252)); 
-  color: black;
+.btn{
+  width: 95px;
+  height: 40px;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255,255,255,0.9);
+  border-radius: 50px;
+  background: linear-gradient(-45deg, #ffa63d, #ff3d77, #338aff, #3cf0c5);
+  background-size: 600%;
+  -webkit-animation: anime 16s linear infinite;
+  animation: anime 16s linear infinite;
+  text-decoration: none;
+  margin-left: 5px;
 }
-.btn-mkttg{
-   background-image: linear-gradient(to right, rgb(245, 187, 100),rgb(245, 120, 62)); 
-  color: black;
+
+@-webkit-keyframes anime {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
-.btn-mktttg{
-   background-image: linear-gradient(to right, rgb(248, 103, 103),rgb(226, 38, 38)); 
-  color: black;
+@keyframes anime {
+  0% {
+    background-position: 0% 20%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 body{
-  background-image: linear-gradient(rgb(146, 255, 4), rgb(188, 243, 87));
-  color: rgb(223, 166, 82);
+  background-color: white;
 }
 h3{
   display: inline;
